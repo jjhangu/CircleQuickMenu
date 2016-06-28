@@ -12,9 +12,9 @@ you can rotate with touchevent~!
 ```java
 CircleMenuFrameLayout layout = new CircleMenuFrameLayout(this);
 
-w/=2;
-
-layout.setInit(6,  w, 1000, outSize.x/8, outSize.x/8, outSize.x/4);
+// layout.setInit(circleCount,  centerPointX, centerPointY, imageWidth, imageHeight, radius);
+layout.setInit(6,  centerPointX, centerPointY, outSize.x/8, outSize.x/8, outSize.x/4);
+// number of images should match circleCount;
 layout.setImageListResource(new int[]{R.drawable.n0, R.drawable.n1, R.drawable.n2, R.drawable.n3, R.drawable.n4, R.drawable.n5});
 layout.setSelectedListener(new SelectedListener() {
     @Override
