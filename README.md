@@ -2,6 +2,9 @@
 this is a sample CircleMenu ~! 
 you can rotate with touchevent~!
 
+## version
+this is beta version 0.0.1
+
 ## ScreenShot
 <img src="/image/screenshot_small.png" width="350">
 
